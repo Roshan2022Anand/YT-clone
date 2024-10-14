@@ -1,14 +1,16 @@
+"use client"
 import SideNav from '@/components/SideNav'
 import TopNav from '@/components/TopNav'
-import { Main } from 'next/document'
 import React from 'react'
 
 const page = () => {
   return (
     <>
       <TopNav />
-      <SideNav />
-      <mian></mian>
+      <mian className="flex h-full">
+        <SideNav />
+        <section className='grow'></section>
+      </mian>
     </>
   )
 }
