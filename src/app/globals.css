@@ -84,7 +84,42 @@ path {
     border-radius: 10px;
     padding: .5rem;
   }
+}
 
+.more-nav-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+  border-top: 1px solid var(--secondary-bg-color);
+  font-size: 15px;
+
+  & p {
+    color: var(--highlight-color);
+    font-weight: bolder;
+    padding: 1rem 0 0 1rem;
+  }
+
+  & button {
+    display: flex;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 1rem;
+
+    &>* {
+      width: fit-content;
+    }
+
+  }
+
+  & h6 {
+    color: var(--highlight-color);
+    text-wrap: balance;
+  }
+
+  & img {
+    width: 20%;
+  }
 
 
 }

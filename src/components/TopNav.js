@@ -4,8 +4,7 @@ import { Bell, Menu, Mic, MicIcon, MoveLeft, Search, User, VideotapeIcon } from 
 import React, { useContext,useState } from 'react'
 
 const TopNav = () => {
-  //Context API
-  const { setopenMoreNav } = useContext(TheContext);
+  const {setopenMoreNav}=useContext(TheContext);
   //All media queries
   const isMobile = useMediaQuery('(min-width: 654px)')
   const isDesktop = useMediaQuery('(min-width: 1024px)')
