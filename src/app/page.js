@@ -4,7 +4,7 @@ import TopNav from '@/components/TopNav'
 import { fetchVideos } from '@/redux/slices/videos'
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-const page = () => {
+const Page = () => {
 
   const dispatch = useDispatch();
 
@@ -25,4 +25,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
