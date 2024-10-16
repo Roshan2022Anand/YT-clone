@@ -1,8 +1,8 @@
 "use client"
 import { configureStore } from '@reduxjs/toolkit'
-import counterReducer from "./slices/counterSlice"
+import videosReducer from './slices/videos'
 export const store = configureStore({
     reducer: {
-        counter:counterReducer
+        videos : videosReducer
     },
 })
